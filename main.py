@@ -17,7 +17,7 @@ def download_stock_data(stock_symbol, start, end):
 
 
 # Main Streamlit app
-st.title("Stock Prediction Web App")
+st.title("TrendWise - A Stock Trend Prediction Web App")
 
 # User input for stock symbols (two inputs)
 stock_symbol1 = st.text_input('Enter Stock Ticker 1','AAPL')
